@@ -13,21 +13,24 @@
     --yellow-color: #FB8200;
     --background-color: #0A0826;
     --white-color: #ffffff;
+    --black-grey: #18191F;
+    --black: #000000;
+    --grey:#5E6366;
 
-    --heading-size: 3.2rem;
-    --card-title: 1.8rem;
-    --price-size: 1.5rem;
-    --title-size: 1rem;
-    --description-size: 0.9rem;
-    
-    --featured-size: 2.4;
-    --heading-weight: 700;
-    --card-title-weight: 600;
-    --card-weight: 500;
-    --price-weight: 400;
+    --heading-size-52: 3.2rem;
+    --card-title-28: 1.8rem;
+    --price-size-24: 1.5rem;
+    --title-size-16: 1rem;
+    --description-size-14: 0.9rem;
+    --featured-size-38: 2.4rem;
+
+    --heading-weight-700: 700;
+    --card-title-weight-600: 600;
+    --card-weight-500: 500;
+    --price-weight-400: 400;
 }
 header {
-    padding: 0 140px;
+    padding: 0 170px;
 }
 nav {
     display: flex;
@@ -37,8 +40,8 @@ nav {
 }
 nav .nav-title {
     color: var(--primary-color);
-    font-size: var(--card-title);
-    font-weight: var(--heading-weight);
+    font-size: var(--card-title-28);
+    font-weight: var(--heading-weight-700);
 }
 nav > ul {
     display: flex;
@@ -46,14 +49,14 @@ nav > ul {
 nav ul li {
     list-style: none;
     margin-right: 34px;
-    font-size: var(--title-size);
-    font-weight: var(--card-title-weight);
+    font-size: var(--title-size-16);
+    font-weight: var(--card-title-weight-600);
 }
 nav ul li a {
     text-decoration: none;
     color: var(--primary-color);
-    font-size: var(--title-size);
-    font-weight: var(--card-title-weight);
+    font-size: var(--title-size-16);
+    font-weight: var(--card-title-weight-600);
 }
 nav img {
     margin-right: 30px;
@@ -68,7 +71,7 @@ banner start
 .banner-container {
     display: flex;
     margin-top: 80px;
-    gap: 150px;
+    gap: 100px;
     align-items: center;
 }
 .banner-content {
@@ -77,14 +80,14 @@ banner start
 }
 .banner-title {
     color: var(--primary-color);
-    font-size: var(--heading-size);
-    font-weight: var(--heading-weight);
+    font-size: var(--heading-size-52);
+    font-weight: var(--heading-weight-700);
     font-family: Poppins;
 }
 .banner-description {
     color: var(--primary-color);
-    font-size: var(--title-size);
-    font-weight: var(--card-title-weight);
+    font-size: var(--title-size-16);
+    font-weight: var(--card-title-weight-600);
     margin-top: 16px;
 }
 .banner-container img {
