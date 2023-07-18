@@ -25,6 +25,22 @@
         text-align: center;
         padding: 0;
     }
+    main {
+        padding: 0 30px;
+    }
+    .logo-image-container {
+        padding: 0 30px;
+    }
+    .logo-image {
+        flex-direction: column;
+    }
+    .popular-card-container {
+        grid-template-columns: 1fr;
+        padding: 0 30px;
+    }
+    .featured-img-content {
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px){
@@ -41,10 +57,16 @@
         flex-direction: column-reverse;
     }
     .banner-content {
-        margin-top: -130px;
+        margin-top: -70px;
         width: 100%;
         padding: 0;
     }
-    
+    main {
+        padding: 0 30px;
+    }
+    .popular-card-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 30px;
+    }
 
 }

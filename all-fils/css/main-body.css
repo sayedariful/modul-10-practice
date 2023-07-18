@@ -41,7 +41,7 @@ main {
 }
 .logo-image {
     display: flex;
-    gap: 60px;
+    gap: 20px;
     justify-content: space-around;
 }
 /* ===================
@@ -119,7 +119,7 @@ Featured products at one place start
     font-weight: var(--heading-weight-700);
 }
 .button-primary {
-    margin-right: 0 auto;
+    float: right;
     background-color: var(--white-color);
     color: var(--button-color);
     border: 0;
@@ -128,6 +128,7 @@ Featured products at one place start
     font-family: Poppins;
     font-size: var(--title-size-16);
     font-weight: var(--heading-weight-700);
+    margin-right: 70px;
 }
 .button-primary i {
     margin-left: 10px;
