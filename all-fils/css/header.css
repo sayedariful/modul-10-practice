@@ -1,0 +1,103 @@
+*{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #3A3A3A;
+    --secondary-color: #787885;
+    --button-color: #E02C6D;
+    --yellow-color: #FB8200;
+    --background-color: #0A0826;
+    --white-color: #ffffff;
+
+    --heading-size: 3.2rem;
+    --card-title: 1.8rem;
+    --price-size: 1.5rem;
+    --title-size: 1rem;
+    --description-size: 0.9rem;
+    
+    --featured-size: 2.4;
+    --heading-weight: 700;
+    --card-title-weight: 600;
+    --card-weight: 500;
+    --price-weight: 400;
+}
+header {
+    padding: 0 140px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    align-items: center;
+}
+nav .nav-title {
+    color: var(--primary-color);
+    font-size: var(--card-title);
+    font-weight: var(--heading-weight);
+}
+nav > ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 34px;
+    font-size: var(--title-size);
+    font-weight: var(--card-title-weight);
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: var(--title-size);
+    font-weight: var(--card-title-weight);
+}
+nav img {
+    margin-right: 30px;
+    width: 20px;
+}
+/* =================
+nav :end
+================ */
+/* ==============
+banner start
+============= */
+.banner-container {
+    display: flex;
+    margin-top: 80px;
+    gap: 150px;
+    align-items: center;
+}
+.banner-content {
+    width: 550px;
+    padding-right: 200px;
+}
+.banner-title {
+    color: var(--primary-color);
+    font-size: var(--heading-size);
+    font-weight: var(--heading-weight);
+    font-family: Poppins;
+}
+.banner-description {
+    color: var(--primary-color);
+    font-size: var(--title-size);
+    font-weight: var(--card-title-weight);
+    margin-top: 16px;
+}
+.banner-container img {
+    width: 100%;
+}
+.banner-button {
+    background-color: var(--button-color);
+    color: var(--white-color);
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 24px;
+    margin-top: 16px;
+}
+/* ==============
+banner End
+============= */
